@@ -1,0 +1,78 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.Background {
+    background-color: rgb(218, 233, 233);
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+}
+
+h1, .text {
+    margin: 0;
+}
+
+.fromsection{
+ display: flex;
+ flex-direction: column;
+ gap:25px;
+}
+
+
+.input-group {
+    width: 100%;
+    max-width: 20em;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 2;
+  }
+  
+  .input-group__label {
+    padding: 0 0.5em;
+    margin-bottom: 0.5em;
+    font-size: 0.875em;
+    font-weight:600;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    letter-spacing: 0.1em;
+    color:rgb(61, 61, 191);
+    cursor: pointer;
+    background: #ebeeee;
+    position: absolute;
+    left: 0.5em;
+    top: -0.28em;
+  }
+  
+  .input-group__input {
+    color:rgb(141, 137, 137);
+    background: #ebeeee;
+    font-size: 1.25rem;
+    line-height: 1;
+    border-style: none;
+    border-radius:8px;
+    outline: none;
+    height:0.7rem;
+    width: 100%;
+    padding: 0.8em 1em;
+    border: 1px solid rgb(97, 94, 94);
+    background-image:black;
+    background-origin: border-box;
+    background-clip: padding-box, border-box;
+    background-size: 200% 100%;
+    transition: background-position 0.8s ease-out;
+  }
+
+ 

@@ -1,0 +1,79 @@
+.containers {
+    border: 0.5px solid rgb(129, 126, 126);
+    width: 30rem;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.headding {
+    background-color: white;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: left;
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+}
+
+
+.headding h1 {
+    color: rgb(59, 56, 56);
+    padding-left: 10px;
+    font-weight:450;
+}
+
+.mainsections {
+    width: 100%; 
+}
+
+
+.profile-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding-left: 30px;
+}
+
+.image-container {
+    position: relative; 
+}
+
+.Image {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+
+.camera-icon {
+    position: absolute; 
+    bottom: 0; 
+    right: 0;
+    background-color:rgb(95, 95, 202);
+    color: white;
+    border-radius: 50%;
+    padding: 5px;
+    font-size: 1px;
+}
+
+.text-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-info h4,
+.text-info h6 {
+    margin: 0; 
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size:medium;
+}
+.text-container p {
+   padding-left:50px;
+   font-family:'Times New Roman', Times, serif;
+   font-weight: 400;
+}
